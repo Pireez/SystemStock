@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Olá, Mundo!"
+    return "Olá, Galera!"
 
 app.run(debug=True)
